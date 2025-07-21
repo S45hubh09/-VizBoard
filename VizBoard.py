@@ -13,15 +13,22 @@ from PIL import Image
 # Load and display the logo from the 'assets' folder
 # === WEBPAGE TITLE ===
 st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    </style>
+
     <div style='
         border: 2px solid #00ffcc;
         border-radius: 15px;
-        padding: 15px;
+        padding: 20px;
         margin-bottom: 20px;
         text-align: center;
         background-color: #111111;
+        font-family: "Poppins", sans-serif;
     '>
-        <h1 style='color: #ffffff;'>Welcome to <span style='color:#00ffcc;'>VizBoard</span></h1>
+        <h1 style="color: white; font-size: 42px; margin-bottom: 0;">
+            Welcome to <span style="color: #00ffcc;">VizBoard</span>
+        </h1>
     </div>
 """, unsafe_allow_html=True)
 
