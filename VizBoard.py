@@ -6,7 +6,13 @@ import seaborn as sns                 # Data visualization (statistical)
 import matplotlib.pyplot as plt       # Plotting (matplotlib backend)
 import os
 from fpdf import FPDF                 # Create PDFs
-import plotly.express as px           # For interactive plots (optional usage)
+import plotly.express as px   
+import streamlit as st
+from PIL import Image
+
+# Load and display the logo from the 'assets' folder
+logo = Image.open("assets/logo.jpg")  # or logo.png
+st.image(logo, width=145)# For interactive plots (optional usage)
 # === WEBPAGE TITLE ===
 st.markdown("""
     <h1 style='
