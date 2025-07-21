@@ -10,10 +10,15 @@ import plotly.express as px           # For interactive plots (optional usage)
 
 # === WEBPAGE TITLE ===
 st.markdown("""
-    <h1 style='text-align: center; color: #00ffcc; font-size: 68px; margin-bottom: 10px;'>
-        Welcome to <span style='color: #fRRfff;'>VizBoard</span>
-    </h1>
+st.markdown("""
+    <h1 style='
+        text-align: center;
+        font-size: 68px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #00cc99;
+    '>Welcome to VizBoard</h1>
 """, unsafe_allow_html=True)
+
 
 # === DISPLAY STATIC IMAGE GALLERY OF GRAPH TYPES ===
 st.subheader("Types of the Graphplots")
