@@ -9,7 +9,7 @@ from fpdf import FPDF                 # Create PDFs
 import plotly.express as px           # For interactive plots (optional usage)
 
 # === WEBPAGE TITLE ===
-st.markdown("<h1 style='text-align: center;margin-top: -50px; color: white;'>Welcome to VizBoard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; margin-top: 10px; color: white;'>Welcome to VizBoard</h1>", unsafe_allow_html=True)
 
 # === DISPLAY STATIC IMAGE GALLERY OF GRAPH TYPES ===
 st.subheader("Types of the Graphplots")
