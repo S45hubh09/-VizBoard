@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt       # Plotting (matplotlib backend)
 import os
 from fpdf import FPDF                 # Create PDFs
 import plotly.express as px           # For interactive plots (optional usage)
-
+st.image("C:\\Users\\Shubham\\Downloads\\istockphoto-925690772-612x612.jpg",width=145)
 # === WEBPAGE TITLE ===
 st.markdown("""
     <h1 style='
