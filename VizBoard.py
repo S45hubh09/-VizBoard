@@ -12,6 +12,53 @@ from PIL import Image
 
 # Load and display the logo from the 'assets' folder
 # === WEBPAGE TITLE ===
+import streamlit as st
+import base64
+
+# Logo image (base64)
+logo_base64 = """
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/...your_long_base64_data...
+"""  # 🔁 Replace with your full base64 image string
+
+# App layout
+st.set_page_config(page_title="VizBoard", layout="centered")
+
+# Display logo using base64
+st.markdown(
+    f"""
+    <div style='text-align: center; margin-bottom: 20px;'>
+        <img src="{logo_base64}" alt="VizBoard Logo" width="145">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Import Google Font
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+    html, body, [class*="css"]  {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Welcome Header Box
+st.markdown("""
+    <div style='
+        border: 2px solid #00ffcc;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        background-color: #111111;
+    '>
+        <h1 style='font-size: 42px; margin-bottom: 0;'>
+            Welcome to <span style='color: #00ffcc;'>VizBoard</span>
+        </h1>
+    </div>
+""", unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
