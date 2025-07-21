@@ -10,8 +10,8 @@ import plotly.express as px           # For interactive plots (optional usage)
 
 # === WEBPAGE TITLE ===
 st.markdown("""
-    <h1 style='text-align: center; color: #00ffcc; font-size: 48px; margin-bottom: 10px;'>
-        Welcome to <span style='color: #ffffff;'>VizBoard</span>
+    <h1 style='text-align: center; color: #00ffcc; font-size: 68px; margin-bottom: 10px;'>
+        Welcome to <span style='color: #fRRfff;'>VizBoard</span>
     </h1>
 """, unsafe_allow_html=True)
 
